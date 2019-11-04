@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Helvetica";
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Futura";
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    padding: 1.5rem 0;
+    grid-column: 1 / -1;
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 1fr repeat(auto-fit, minmax(100px, 1fr)) 1fr; 
+    align-items: center;
+}
+
+h1 {
+    grid-column: 2 / 3;
+}
+
+.main-nav {
+    grid-column: 4 / 6;
+    
+    
+    
+}
